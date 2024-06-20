@@ -44,6 +44,7 @@ export class Service{
                     content,
                     featuredImage,
                     status,
+
                 }
             )
         } catch (error) {
@@ -94,6 +95,8 @@ export class Service{
             return false
         }
     }
+
+    // file upload service
 
     async uploadFile(file){
         try {

@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import logo from '../assets/react.svg';
 
-function Logo({width = '100px'}) {
+function Logo({ width = '100px' }) {
     return (
-        <div>Logo</div>
-    )
+        <img
+            src={logo}
+            alt="React Logo"
+            style={{ width }}
+        />
+    );
 }
 
-export default Logo
+export default Logo;
